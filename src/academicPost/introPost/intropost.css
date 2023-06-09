@@ -1,0 +1,46 @@
+/* intropost.css */
+.introduction_part {
+    margin: 20px;
+    /* column-gap: 3rem; */
+    
+  }
+  
+  .Intro_part {
+    display: grid;
+    grid-template-columns: 2fr;
+    column-gap: 5rem;
+    margin-right: 5rem !important;
+    margin-left: 5rem !important;
+  }
+  
+  .Intro_part img {
+    width: 120%;
+    height: 75%;
+    margin-top: 35px;
+    margin-left: -35px;
+    border-radius:50%;
+  }
+  
+  .welcome_text {
+    text-align: left !important ;
+    margin-top: 10px;
+
+   
+  }
+  
+  @media screen and (min-width: 768px) {
+    .Intro_part {
+      grid-template-columns: 1fr 2fr;
+      /* margin-right: 1rem ;
+      margin-left: 1rem; */
+    }
+  
+    .welcome_text {
+      text-align: left;
+      margin-top: 20px;
+      /* margin-right: 1rem;
+      margin-left: 1rem; */
+      
+    }
+  }
+  

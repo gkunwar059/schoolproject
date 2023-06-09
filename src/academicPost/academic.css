@@ -1,0 +1,52 @@
+
+.heading_academic{
+  text-align: center;
+}
+
+.academic_field {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Show 4 slides in a row */
+  grid-gap: 1rem;
+  justify-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}  
+
+
+.academica {
+  background-color:gainsboro;
+  padding: 20px;
+  width: 200px !important;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin-top: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.academica img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.academica h1 {
+  margin-top: 7px;
+  font-size: 24px;
+
+}
+
+.academica p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #888;
+}
+ .academica a {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .academic_field {
+    grid-template-columns: repeat(1, 1fr); /* Show 1 slide in a row for mobile screens */
+  }
+}
